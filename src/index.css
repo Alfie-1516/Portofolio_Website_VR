@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media (max-width: 1535px) {
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 0;
+    gap: 0 !important;
+  }
+  
+}
+@media (max-width: 1280px) {
+  .about_me {
+    justify-content: space-between;
+  }
+  .experience {
+    width: 35%;
+  }
+}
+@media (max-width: 1195px) {
+  
+  .experience_sub {
+    width: 15rem
+  }
+  .short_text{
+    font-size: 25px;
+  }
+}
